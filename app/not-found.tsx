@@ -1,0 +1,3 @@
+import Link from "next/link";
+import { AppShell } from "@/components/shell";
+export default function NotFound(){return <AppShell><main className="main-content not-found-guide"><div className="empty-icon">404</div><span className="eyebrow">GUIDE NOT FOUND</span><h1>We couldn’t find that app.</h1><p>The guide may not exist yet. Browse the library or start a new research request.</p><div className="hero-actions"><Link className="button-primary" href="/apps">Browse app guides <span aria-hidden="true">→</span></Link><Link className="button-secondary" href="/research">Research an app</Link></div></main></AppShell>}
